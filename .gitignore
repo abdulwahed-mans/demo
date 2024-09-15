@@ -1,0 +1,70 @@
+# Step 1: Create a .gitignore file
+echo "
+# Python virtual environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs and debug files
+*.log
+
+# Test coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Environment variables
+.env
+.envrc
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm project files
+.idea/
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# MacOS system files
+.DS_Store
+
+# Streamlit specific files
+.streamlit/
+" > .gitignore
