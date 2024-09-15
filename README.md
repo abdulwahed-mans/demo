@@ -18,8 +18,12 @@ This is a basic Streamlit app for displaying and interacting with CSV files. The
 1. **Clone the repository**:
 
    ```bash
+   demo preview:
+
+   https://abdulwahed-mans-demo-apps-ls3rqb.streamlit.app/
+
    git clone https://github.com/abdulwahed-mans/demo.git
-   cd myproject
+   cd demo
    ```
 
 2. **Create and activate a virtual environment**:
